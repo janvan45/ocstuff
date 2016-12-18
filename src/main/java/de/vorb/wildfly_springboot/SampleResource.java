@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SampleResource {
 
-    @RequestMapping("/")
+    @RequestMapping("/hi")
     public String hello() {
-        return "Hello World2!";
+        return "Hello World3!";
     }
 
 }
